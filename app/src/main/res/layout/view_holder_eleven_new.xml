@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/margin_xxlarge"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:src="@drawable/eleven_logo"
+        android:scaleType="fitXY"
+        android:background="@color/black_full"
+        android:padding="1dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_title"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_regular_2x"
+        android:textColor="@color/black_full"
+        android:layout_toEndOf="@+id/ivLogo"
+        android:layout_marginStart="@dimen/margin_medium"/>
+
+    <TextView
+        android:id="@+id/tvPublishDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_publish_date"
+        android:textSize="@dimen/text_smaller"
+        android:layout_toEndOf="@id/ivLogo"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginStart="@dimen/margin_medium"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_description"
+        android:textSize="@dimen/text_regular"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginVertical="@dimen/margin_medium_2"/>
+
+    <ImageView
+        android:id="@+id/ivNewsImage"
+        android:layout_below="@id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/news_photo"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+    
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/ivNewsImage"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:background="@color/secondary_text"/>
+
+
+</RelativeLayout>

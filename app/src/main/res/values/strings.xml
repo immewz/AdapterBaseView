@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AdapterBaseView</string>
+    <string name="lbl_description">ကမ္ဘာကျော်တိုင်တန်းနစ်ရုပ်ရှင်ဇာတ် ကားကို ဖန်တီးခဲ့သူ ကနေဒါရုပ်ရှင်ဒါရိုက်တာ ဂျိမ်းစ်ကင်မရွန်း၏ Avatar နောက်ဆက်တွဲ ဇာတ်ကားသစ်ကို တရုတ်ပြည်မကြီးတွင် ဒီဇင်ဘာ ၁၆ ရက်၌ ရုံတင်ပြသတော့မည်ဟု အမေရိကန်ရုပ်ရှင်ထုတ်လုပ်ရေးကုမ္ပဏီ 20th Century Studios က နိုဝင်ဘာ ၂၃ ရက်တွင် ကြေညာထားသည်။ တရုတ်တွင် Avatar : The Way of Water ဇာတ်ကားရုံတင်မည့်ရက်က နိုင်ငံတကာတွင်ရုံတင်မည့်ရက်နှင့် တစ်ရက်တည်းဟုလည်း ထုတ်လုပ်ရေးကုမ္ပဏီက ၎င်းတို့၏ ဝေပိုအကောင့်တွင် ဖော်ပြသည်။ လတ်တလောလများအတွင်း တရုတ်ရုပ်ရှင်စျေးကွက်နှင့် ထိတွေ့ခွင့်ရသည့် နိုင်ငံခြားရုပ်ရှင်ဇာတ်ကား အနည်းငယ်သာရှိသည့်အထဲ Avatar လည်း ပါဝင်လာခြင်းဖြစ်သည်။</string>
+    <string name="lbl_publish_date">Mar 20 2020</string>
+    <string name="lbl_title">Eleven Media</string>
+    <string name="lbl_eleven_media">Eleven Media</string>
+    <string name="lbl_mrtv_4">MRTV 4</string>
+</resources>
